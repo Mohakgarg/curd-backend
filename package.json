@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/Mohakgarg/curd-backend.git"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mohakgarg/curd-backend/issues"
   },
-  "homepage": "https://github.com/Mohakgarg/curd-backend#readme"
+  "homepage": "https://github.com/Mohakgarg/curd-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  }
 }
